@@ -20,7 +20,6 @@ Francisco Wesley
 3. Tecnologias Utilizadas
 Tecnologia	Função
 Python (Flask)	Backend principal
-Node.js (Express)	API intermediária (middleware)
 TypeScript	Cliente (consumo da API)
 
 O sistema segue uma arquitetura distribuída em camadas:
@@ -74,7 +73,7 @@ Ordem de serviço é criada para o veículo
 Cadastro de clientes
 Cadastro de veículos
 Criação de ordens de serviço
-Integração entre Python e Node.js
+Integração entre Python 
 Consumo da API via TypeScript
 
 9. Roadmap de Desenvolvimento
@@ -88,8 +87,8 @@ Consumo da API via TypeScript
 
 A comunicação entre os sistemas ocorre via API REST utilizando JSON:
 
-Node.js consome o backend Python
-TypeScript consome o Node.js
+python consome o frontend Python
+TypeScript consome Python
 Tudo desacoplado e escalável
 
 11. Considerações Finais
